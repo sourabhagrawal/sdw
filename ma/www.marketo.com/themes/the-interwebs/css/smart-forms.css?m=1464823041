@@ -1,0 +1,79 @@
+/** DEFAULT STYLES **/
+/* example css for company select list display frame class */
+
+/* Set width of displayFrame for maximum screen width of 320px */
+@media only screen 
+  and (max-width : 320px) {
+    .divDisplayFrame {
+      width: 300px !important;
+    }
+  }
+
+  .divDisplayFrame {
+	visibility:hidden;
+	position:absolute !important;
+	z-index:100;
+	background-color:#ffffff !important;
+	text-align: left;
+	font-size: 16px;
+	box-shadow: 0 0 50px 5px #777;
+	-moz-box-shadow: 0 0 50px 5px #777;
+	-webkit-box-shadow: 0 0 50px 5px #777;
+	border: 1px solid #5A54A4 !important;
+	padding: 5px;
+	width: 450px !important; height: auto !important;
+	z-index: 11111 !important;
+}
+
+.divBlockFrame {
+	z-index: 11111 !important;
+}
+
+.divDisplayFrame h3 {
+	border-bottom: 1px solid #CCC;
+	padding: 10px; margin: 0 2px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px; font-weight: bold;
+}
+
+.divLoadingFrame {
+	left:50% !important;
+	top:50% !important;
+}
+table.tabCompList {
+	width: 100% !important;
+}
+
+.tabCompList td {
+	line-height:124%;
+	font-size: 14px;
+}
+
+.divCompList, .divCompNAList {
+	padding: 5px 20px;
+}
+.divCompName, .divCompNAList {
+	color: #5A54A4;
+	font-weight: bold;
+}
+.divCompNAList {
+	font-size: 12px;
+}
+.divCompList {
+	line-height:124%;
+}
+.tabCompNATR, .tabCompTR {
+	background-color: white !important;
+}
+.tabCompTR:nth-child(even) {
+	background-color: #E5E5E5 !important;
+}
+.tabCompNATR:hover, .tabCompTR:hover {
+	background-color: #DCD5FF !important;
+}
+.tabCompNATD {
+	border-top: 1px solid #CCC;
+}
+.divCompNADetails {
+	display: none;
+}
