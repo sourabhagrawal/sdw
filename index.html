@@ -169,6 +169,14 @@
 for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
 mixpanel.init("e2fd1fb443cb3696570b25a45666d476");
 mixpanel.track("Visit Home Page");
+mixpanel.identify("iitr.sourabh@gmail.com");
+mixpanel.people.set({
+    "$email": "iitr.sourabh@gmail.com",    // only special properties need the $
+    "$created": "2011-03-16 16:53:54",
+    "$last_login": new Date(),         // properties can be dates...
+    "credits": 150,                    // ...or numbers
+    "gender": "Male"                    // feel free to define your own properties
+});
 </script><!-- end Mixpanel -->
 <script>
   window.intercomSettings = {
